@@ -1,4 +1,4 @@
-package sda.pl.springdemo.controler.model;
+package sda.pl.springdemo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
