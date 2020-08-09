@@ -24,4 +24,14 @@ public class User {
     private String password;
     private LocalDateTime reigstartionDateTime;
     private boolean status;
+
+
+    public User(String name, String lastName, String email, String password) {
+        this.name = name;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.reigstartionDateTime = LocalDateTime.now();
+        this.status = true;
+    }
 }
